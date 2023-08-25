@@ -7,16 +7,46 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C6A27E862A7BA3CD003855E3 /* Gardenia_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A27E852A7BA3CD003855E3 /* Gardenia_IOSApp.swift */; };
-		C6A27E882A7BA3CD003855E3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6A27E872A7BA3CD003855E3 /* ContentView.swift */; };
+		9785C3182A977E550029822A /* WelcomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785C3172A977E370029822A /* WelcomeRouter.swift */; };
+		9785C31C2A9796480029822A /* RegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785C31B2A9796480029822A /* RegistrationViewModel.swift */; };
+		9785C31D2A97C0880029822A /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785C3192A97959E0029822A /* RegistrationView.swift */; };
+		9785C31F2A97C2DB0029822A /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785C31E2A97C2DB0029822A /* Fonts.swift */; };
+		9785C3232A98B0A30029822A /* Gardenia_IOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9785C3222A98B0A30029822A /* Gardenia_IOSApp.swift */; };
+		9785C32F2A98B3130029822A /* Inter-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C3262A98B3130029822A /* Inter-Light.ttf */; };
+		9785C3302A98B3130029822A /* Inter-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C3272A98B3130029822A /* Inter-Thin.ttf */; };
+		9785C3312A98B3130029822A /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C3282A98B3130029822A /* Inter-Bold.ttf */; };
+		9785C3322A98B3130029822A /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C3292A98B3130029822A /* Inter-Regular.ttf */; };
+		9785C3332A98B3130029822A /* Inter-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C32A2A98B3130029822A /* Inter-ExtraBold.ttf */; };
+		9785C3342A98B3130029822A /* Inter-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C32B2A98B3130029822A /* Inter-ExtraLight.ttf */; };
+		9785C3352A98B3130029822A /* Inter-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C32C2A98B3130029822A /* Inter-Black.ttf */; };
+		9785C3362A98B3130029822A /* Inter-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C32D2A98B3130029822A /* Inter-SemiBold.ttf */; };
+		9785C3372A98B33B0029822A /* Inter-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9785C3252A98B3130029822A /* Inter-Medium.ttf */; };
+		9785C3392A98B3ED0029822A /* Gardenia-IOS-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9785C3382A98B3ED0029822A /* Gardenia-IOS-Info.plist */; };
+		979480832A960E9E00E105ED /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979480822A960E9E00E105ED /* WelcomeView.swift */; };
+		979480852A96144000E105ED /* WelcomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 979480842A96144000E105ED /* WelcomeViewModel.swift */; };
 		C6A27E8A2A7BA3CE003855E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A27E892A7BA3CE003855E3 /* Assets.xcassets */; };
 		C6A27E8D2A7BA3CE003855E3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C6A27E8C2A7BA3CE003855E3 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9785C3172A977E370029822A /* WelcomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeRouter.swift; sourceTree = "<group>"; };
+		9785C3192A97959E0029822A /* RegistrationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		9785C31B2A9796480029822A /* RegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewModel.swift; sourceTree = "<group>"; };
+		9785C31E2A97C2DB0029822A /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		9785C3222A98B0A30029822A /* Gardenia_IOSApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Gardenia_IOSApp.swift; sourceTree = "<group>"; };
+		9785C3252A98B3130029822A /* Inter-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Medium.ttf"; sourceTree = "<group>"; };
+		9785C3262A98B3130029822A /* Inter-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Light.ttf"; sourceTree = "<group>"; };
+		9785C3272A98B3130029822A /* Inter-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Thin.ttf"; sourceTree = "<group>"; };
+		9785C3282A98B3130029822A /* Inter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Bold.ttf"; sourceTree = "<group>"; };
+		9785C3292A98B3130029822A /* Inter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Regular.ttf"; sourceTree = "<group>"; };
+		9785C32A2A98B3130029822A /* Inter-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraBold.ttf"; sourceTree = "<group>"; };
+		9785C32B2A98B3130029822A /* Inter-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-ExtraLight.ttf"; sourceTree = "<group>"; };
+		9785C32C2A98B3130029822A /* Inter-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-Black.ttf"; sourceTree = "<group>"; };
+		9785C32D2A98B3130029822A /* Inter-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Inter-SemiBold.ttf"; sourceTree = "<group>"; };
+		9785C3382A98B3ED0029822A /* Gardenia-IOS-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Gardenia-IOS-Info.plist"; sourceTree = "<group>"; };
+		979480822A960E9E00E105ED /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		979480842A96144000E105ED /* WelcomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewModel.swift; sourceTree = "<group>"; };
 		C6A27E822A7BA3CD003855E3 /* Gardenia_IOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gardenia_IOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C6A27E852A7BA3CD003855E3 /* Gardenia_IOSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Gardenia_IOSApp.swift; sourceTree = "<group>"; };
-		C6A27E872A7BA3CD003855E3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C6A27E892A7BA3CE003855E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C6A27E8C2A7BA3CE003855E3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -32,9 +62,70 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9785C31A2A9795DE0029822A /* Registration */ = {
+			isa = PBXGroup;
+			children = (
+				9785C3192A97959E0029822A /* RegistrationView.swift */,
+				9785C31B2A9796480029822A /* RegistrationViewModel.swift */,
+			);
+			path = Registration;
+			sourceTree = "<group>";
+		};
+		9785C3202A97C2E80029822A /* DesignSystem */ = {
+			isa = PBXGroup;
+			children = (
+				9785C3212A98AFF60029822A /* Fonts */,
+				9785C31E2A97C2DB0029822A /* Fonts.swift */,
+			);
+			path = DesignSystem;
+			sourceTree = "<group>";
+		};
+		9785C3212A98AFF60029822A /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				9785C3242A98B3130029822A /* InterFont */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		9785C3242A98B3130029822A /* InterFont */ = {
+			isa = PBXGroup;
+			children = (
+				9785C3252A98B3130029822A /* Inter-Medium.ttf */,
+				9785C3262A98B3130029822A /* Inter-Light.ttf */,
+				9785C3272A98B3130029822A /* Inter-Thin.ttf */,
+				9785C3282A98B3130029822A /* Inter-Bold.ttf */,
+				9785C3292A98B3130029822A /* Inter-Regular.ttf */,
+				9785C32A2A98B3130029822A /* Inter-ExtraBold.ttf */,
+				9785C32B2A98B3130029822A /* Inter-ExtraLight.ttf */,
+				9785C32C2A98B3130029822A /* Inter-Black.ttf */,
+				9785C32D2A98B3130029822A /* Inter-SemiBold.ttf */,
+			);
+			path = InterFont;
+			sourceTree = "<group>";
+		};
+		979480812A960E8300E105ED /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				9785C3172A977E370029822A /* WelcomeRouter.swift */,
+				979480822A960E9E00E105ED /* WelcomeView.swift */,
+				979480842A96144000E105ED /* WelcomeViewModel.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
+		979480992A96182100E105ED /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				9785C3202A97C2E80029822A /* DesignSystem */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		C6A27E792A7BA3CD003855E3 = {
 			isa = PBXGroup;
 			children = (
+				9785C3382A98B3ED0029822A /* Gardenia-IOS-Info.plist */,
 				C6A27E842A7BA3CD003855E3 /* Gardenia_IOS */,
 				C6A27E832A7BA3CD003855E3 /* Products */,
 			);
@@ -51,9 +142,11 @@
 		C6A27E842A7BA3CD003855E3 /* Gardenia_IOS */ = {
 			isa = PBXGroup;
 			children = (
-				C6A27E852A7BA3CD003855E3 /* Gardenia_IOSApp.swift */,
-				C6A27E872A7BA3CD003855E3 /* ContentView.swift */,
+				9785C3222A98B0A30029822A /* Gardenia_IOSApp.swift */,
+				979480812A960E8300E105ED /* Welcome */,
+				9785C31A2A9795DE0029822A /* Registration */,
 				C6A27E892A7BA3CE003855E3 /* Assets.xcassets */,
+				979480992A96182100E105ED /* Utilities */,
 				C6A27E8B2A7BA3CE003855E3 /* Preview Content */,
 			);
 			path = Gardenia_IOS;
@@ -125,8 +218,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9785C3312A98B3130029822A /* Inter-Bold.ttf in Resources */,
+				9785C3392A98B3ED0029822A /* Gardenia-IOS-Info.plist in Resources */,
 				C6A27E8D2A7BA3CE003855E3 /* Preview Assets.xcassets in Resources */,
 				C6A27E8A2A7BA3CE003855E3 /* Assets.xcassets in Resources */,
+				9785C3362A98B3130029822A /* Inter-SemiBold.ttf in Resources */,
+				9785C3332A98B3130029822A /* Inter-ExtraBold.ttf in Resources */,
+				9785C32F2A98B3130029822A /* Inter-Light.ttf in Resources */,
+				9785C3302A98B3130029822A /* Inter-Thin.ttf in Resources */,
+				9785C3352A98B3130029822A /* Inter-Black.ttf in Resources */,
+				9785C3342A98B3130029822A /* Inter-ExtraLight.ttf in Resources */,
+				9785C3372A98B33B0029822A /* Inter-Medium.ttf in Resources */,
+				9785C3322A98B3130029822A /* Inter-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +240,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C6A27E882A7BA3CD003855E3 /* ContentView.swift in Sources */,
-				C6A27E862A7BA3CD003855E3 /* Gardenia_IOSApp.swift in Sources */,
+				9785C31F2A97C2DB0029822A /* Fonts.swift in Sources */,
+				9785C31C2A9796480029822A /* RegistrationViewModel.swift in Sources */,
+				979480852A96144000E105ED /* WelcomeViewModel.swift in Sources */,
+				9785C31D2A97C0880029822A /* RegistrationView.swift in Sources */,
+				979480832A960E9E00E105ED /* WelcomeView.swift in Sources */,
+				9785C3232A98B0A30029822A /* Gardenia_IOSApp.swift in Sources */,
+				9785C3182A977E550029822A /* WelcomeRouter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +378,7 @@
 				DEVELOPMENT_TEAM = W8F9Y7MUHM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gardenia-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +408,7 @@
 				DEVELOPMENT_TEAM = W8F9Y7MUHM;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Gardenia-IOS-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

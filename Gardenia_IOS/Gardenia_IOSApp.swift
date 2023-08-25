@@ -11,7 +11,7 @@ import SwiftUI
 struct Gardenia_IOSApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            WelcomeView(viewModel: WelcomeViewModel(router: WelcomeRouter()))
         }
     }
 }
